@@ -1,0 +1,37 @@
+/* Style for the body and center the flag */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  /* Flag container */
+  .flag {
+    width: 300px;
+    height: 180px;
+    border: 1px solid black; /* Optional, for better visibility */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Common style for the stripes */
+  .stripe {
+    flex: 1;
+  }
+  
+  /* Color stripes */
+  .red {
+    background-color: #d9002c;
+  }
+  
+  .blue {
+    background-color: #0033a0;
+  }
+  
+  .orange {
+    background-color: #ff6a13;
+  }
+  
